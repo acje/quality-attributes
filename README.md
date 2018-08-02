@@ -26,7 +26,7 @@ List ting the quality attributes subsets
 - Integrity
 - Availability
 
-### Parkerian Hexad:
+### Parkerian Hexad (1998):
 https://en.wikipedia.org/wiki/Parkerian_Hexad
 - Confidentiality
 - Possession or Control
@@ -35,7 +35,7 @@ https://en.wikipedia.org/wiki/Parkerian_Hexad
 - Availability
 - Utility
 
-### TOGAF Application Platform Service Qualities:
+### TOGAF Application Platform Service Qualities (1998):
 http://www.ict.griffith.edu.au/~bernus/taskforce/archive/togaf/togaf4/tx_quals.htm
 ##### Availability (the degree to which something is available for use), including:
 * manageability, the ability to gather information about the state of something and to control it
@@ -65,3 +65,13 @@ TOGAF has a definition of security that reads more like confidentiality, which i
 I'd like to find some natural way to structure quality attributes such that they are more easily reasoned about and such that I can with greater certainty know if I have covered the whole spectrum. A hierarchical model, like TOGAF is attempting, would be nice because one could more easily identify areas to emphasize if you first know that a higher-level attribute is of importance to the system.
 
 Example: you build a system that needs high availability. If your workload is variable, you will need to consider performance during peaks to ensure availability, and perhaps even scalability to handle large variations. The TOGAF model only partially helps in this scenario, listing performance as a subset of availability, but not scalability. This is a bit strange when you read the TOGAF definition of scalability. I've long had this feeling that the sorry state of definitions of quality attributes is a major indicator of the IT-industry’s immaturity. So far into this note I'm not feeling better.
+
+"Am I reinventing the wheele?" moment finally arrived after some digging around;
+Firesmith taxonomy (2003)
+ftp://ftp.cert.org/public/documents/03.reports/pdf/03tn033.pdf
+
+---
+random notes:
+higher level qualities; system should: evolve/cope with change, be trustwordy (secure), sosialy compliant (political legal ethical)
+usability, fits better with the cyber-physical domain than the "pure" cyber-domain. Can split model.
+clarify stakeholder roles.
