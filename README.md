@@ -66,12 +66,7 @@ I'd like to find some natural way to structure quality attributes such that they
 
 Example: you build a system that needs high availability. If your workload is variable, you will need to consider performance during peaks to ensure availability, and perhaps even scalability to handle large variations. The TOGAF model only partially helps in this scenario, listing performance as a subset of availability, but not scalability. This is a bit strange when you read the TOGAF definition of scalability. I've long had this feeling that the sorry state of definitions of quality attributes is a major indicator of the IT-industry’s immaturity. So far into this note I'm not feeling better.
 
-"Am I reinventing the wheele?" moment finally arrived after some digging around;
-Firesmith taxonomy (2003)
-ftp://ftp.cert.org/public/documents/03.reports/pdf/03tn033.pdf
+"Am I reinventing the wheel?" moment finally arrived after some digging around; Firesmith taxonomy (2003) ftp://ftp.cert.org/public/documents/03.reports/pdf/03tn033.pdf
 
 ---
-random notes:
-higher level qualities; system should: evolve/cope with change, be trustwordy (secure), sosialy compliant (political legal ethical)
-usability, fits better with the cyber-physical domain than the "pure" cyber-domain. Can split model.
-clarify stakeholder roles.
+random notes: higher level qualities; system should: evolve/cope with change, be trust wordy (secure), socially compliant (political legal ethical) usability, fits better with the cyber-physical domain than the "pure" cyber-domain. Can split model. clarify stakeholder roles.
