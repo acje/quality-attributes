@@ -7,7 +7,7 @@ First two guidelines I have discovered to help slice and dice the model.
 
 Number one, there are three domains to be considered;
 1) The cyber domain (or information domain?) with three basic capabilities; store, move and process information.
-2) The cyber-physical domain with two basic capabilities; input and output of information. Sensors and actuators, DAC and ADC. Explicitly not including IO in a storage or communication devices this is considered as the "move" capability of the cyber domain.
+2) The cyber-physical domain with two basic capabilities; input and output of information between the cyber and the physical domain. Sensors and actuators, DAC and ADC. Explicitly not including IO in a storage or communication devices this is considered as the "move" capability of the cyber domain.
 3) The physical domain. Aka the rest of the universe, mostly out of scope for now.
 
 Number two, there are three basic groups of stakeholders to consider. The groups may be overlapping for some systems and they may or may not have the same expectations with regards to quality attributes. I believe that the needs of these groups should be consistent across different systems. Like say owners or operations are never going to have a usability need with regard to the provided system. If so they are in the role of a user.
