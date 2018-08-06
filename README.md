@@ -10,7 +10,8 @@ Number one, there are three domains to be considered;
 2) The cyber-physical domain with two basic capabilities; input and output of information between the cyber and the physical domain. Sensors and actuators, DAC and ADC. Explicitly not including IO in a storage or communication devices this is considered as the "move" capability of the cyber domain. Side channel attackts lives in this domain.
 3) The physical domain. Aka the rest of the universe, mostly out of scope for now.
 
-Number two, there are three basic stakeholder roles to consider. The actual stakeholders may have one or more roles. I believe that the needs of these groups should be consistent across different systems. Like say owners or providers are never going to have a usability need with regard to the provided system. If so they are in the role of a user.
+Number two, there are three basic stakeholder roles to consider. The actual stakeholders may have one or more roles. I believe that the needs of these groups should be consistent across different systems. Like say owners or providers are never going to have a usability need with regard to the provided system. If so they are in the role of a user. All quality attributes exists in relation between stakeholders and the system. Therefore it is key to have a model for stakeholders.
+
 1) System owners.
 2) System providers. Usually consisting of a vendor, DEV, OPS, SRE or if you work at Amazon or is some poor full-stack engineer named Brent (Phoenix Project joke), then you run it if you build it.
 3) System users. The group that uses the system for the purposes of some subset of its functinal requirements.
