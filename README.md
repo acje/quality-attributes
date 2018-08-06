@@ -7,10 +7,10 @@ First two guidelines I have discovered to help slice and dice the model.
 
 Number one, there are three domains to be considered;
 1) The cyber domain (or information domain?) with three basic capabilities; store, move and process information.
-2) The cyber-physical domain with two basic capabilities; input and output of information between the cyber and the physical domain. Sensors and actuators, DAC and ADC. Explicitly not including IO in a storage or communication devices this is considered as the "move" capability of the cyber domain. Side channel attackts lives in this domain.
+2) The cyber-physical domain with two basic capabilities; input and output of information between the cyber and the physical domain. Sensors and actuators, DAC and ADC. Explicitly not including IO in a storage or communication device, as this is considered the "move" capability of the cyber domain. Side channel attackts lives in this domain.
 3) The physical domain. Aka the rest of the universe, mostly out of scope for now.
 
-Number two, there are three basic stakeholder roles to consider. The actual stakeholders may have one or more roles. I believe that the needs of these groups should be consistent across different systems. Like say owners or providers are never going to have a usability need with regard to the provided system. If so they are in the role of a user. All quality attributes exists in relation between stakeholders and the system. Therefore it is key to have a model for stakeholders.
+Number two, there are three basic stakeholder roles to consider. The actual stakeholders may have one or more roles, but the existance of these three roles shold be consistent across all systems, so be sure to cover them all. Quality attributes exists in relation between stakeholders and the system. Therefore it is key to have a consistent model for stakeholders in order to create a consistent model for quality attributes across all types of systems.
 
 1) System owners.
 2) System providers. Usually consisting of a vendor, DEV, OPS, SRE or if you work at Amazon or is some poor full-stack engineer named Brent (Phoenix Project joke), then you run it if you build it.
@@ -222,3 +222,5 @@ notes on firesmith
 
 ---
 random notes: higher level qualities; system should: evolve/cope with change, be trust wordy (secure), socially compliant (political legal ethical) usability, fits better with the cyber-physical domain than the "pure" cyber-domain. Can split model. clarify stakeholder roles.
+Look into quality attributes in relation to OODA-loops, and OODA lops in relation to Cynefin framework.
+vision, strategy, tactics, metrics. where does quality attributes fit in?
