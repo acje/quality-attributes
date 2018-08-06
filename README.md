@@ -216,7 +216,7 @@ previously working version.
 
 ---
 notes on firesmith
-* has notion of developer and user stakeholders, not owner.
+* has notion of developer and user stakeholders, not owner. "developer" seems like å less accurate definition than provider, as i lacks the notion for operations or SRE.
 * the usage oriented quality factor "correctness" has a sub factor "currency" which definition is resembling the C in CAP theorem, Consistency, or degree of consistency. Eventual consistency. This indicates that Partition tolerance should be considered as a quality attribute, at least for a distributed system.
 
 
