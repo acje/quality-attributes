@@ -90,12 +90,16 @@ between major releases. Maintainability includes the following quality subfactor
 releases while the application or component is in use by its users.
 * Extensibility is the ease with which an application or component can be enhanced in
 the future to meet changing requirements or goals.
-##### Portability is the ease with which an application or component can be moved from one
+##### Portability
+is the ease with which an application or component can be moved from one
 environment to another.
-##### Reusability is the ease with which an existing application or component can be reused.
-##### Scalability is the ease with which an application or component can be modified to
+##### Reusability
+is the ease with which an existing application or component can be reused.
+##### Scalability
+is the ease with which an application or component can be modified to
 expand its existing capacities.
-##### Verifiability is the ease with which an application or component can be verified to meet
+##### Verifiability
+is the ease with which an application or component can be verified to meet
 its associated requirements and standards. Verifiability includes the following subfactor:
 * Testability is the ease with which an application or component facilitates the
 creation and execution of successful tests (i.e., tests that would cause failures due to
@@ -105,14 +109,18 @@ any underlying defects).
 are quality factors that are primarily important after
 deployment and during actual usage of an application or component. Examples of usageoriented
 quality factors and subfactors include the following:
-##### Auditability is the degree to which sufficient records are kept to support a financial
+##### Auditability
+is the degree to which sufficient records are kept to support a financial
 audit.
-##### Branding is the degree to which a work product (e.g., application, component, or
+##### Branding
+is the degree to which a work product (e.g., application, component, or
 document) successfully incorporates the brand of the customer organization’s business
 enterprise.
-##### Capacity is the minimum number of things (e.g., transactions, storage) that can be
+##### Capacity
+is the minimum number of things (e.g., transactions, storage) that can be
 successfully handled.
-##### Configurability is the degree to which something can be configured into multiple forms
+##### Configurability
+is the degree to which something can be configured into multiple forms
 (i.e., configurations). Configurability includes the following quality subfactors:
 * Internationalization (also known as globalization and localization) is the degree to
 which something can be or is appropriately configured for use in a global
@@ -124,13 +132,15 @@ each of which implements a different subset of the functional requirements and
 associated quality requirements.
 * Variability is the degree to which something exists in multiple variants, each having
 the appropriate capabilities.
-##### Correctness is the degree to which a work product and its outputs are free from defects
+##### Correctness
+is the degree to which a work product and its outputs are free from defects
 once the work product is delivered. Correctness includes the following quality subfactors:
 * Accuracy is the magnitude of defects (i.e., the deviation of the actual or average
 measurements from their true value) in quantitative data.
 * Currency is the degree to which data remain current (i.e., up to date, not obsolete).
 * Precision is the dispersion of quantitative data, regardless of its accuracy.
-##### Dependability is the degree to which various kinds of users can depend on a work
+##### Dependability
+is the degree to which various kinds of users can depend on a work
 product. Dependability includes the following quality factors: 
 * Availability is the degree to which a work product is operational and available for
 use.
@@ -178,15 +188,19 @@ attacks, at which time their consequences fall within the realm of security. Sim
 attacks may cause safety hazards that in turn may cause accidents.
 * Survivability is the degree to which essential, mission-critical services continue to
 be provided in spite of either accidental or malicious harm.
-##### Efficiency is the degree to which something effectively uses (i.e., minimizes its
+##### Efficiency
+is the degree to which something effectively uses (i.e., minimizes its
 consumption of) its resources. These resources may include all types of resources such as
 computing (hardware, software, and network), machinery, facilities, and personnel.
-##### Interoperability is the degree to which a system or one of its components is properly
+##### Interoperability
+is the degree to which a system or one of its components is properly
 connected to and operates with something else.
-##### Operational environment compatibility is the degree to which a system or a
+##### Operational
+environment compatibility is the degree to which a system or a
 component can be used and functions correctly under specified conditions of the physical
 environment(s) in which it is intended to operate.
-##### Performance is the degree to which timing characteristics are adequate. Performance
+##### Performance
+is the degree to which timing characteristics are adequate. Performance
 includes the following quality subfactors:
 * Jitter is the precision (i.e., variability) of the time when one or more events occur.
 * Latency is the time it takes to provide a requested service or allow access to a
@@ -197,7 +211,8 @@ access a resource.
 then occur at their scheduled times.
 * Throughput is the number of times that a service can be provided within a specified
 unit of time.
-##### Utility is the degree to which something can be accessed and used by its various types of
+##### Utility
+is the degree to which something can be accessed and used by its various types of
 users. Utility includes (but is not limited to) the following subfactors:
 * Accessibility is the degree to which the user interface of something enables users
 with common or specified (e.g., auditory, visual, physical, or cognitive) disabilities to
@@ -218,7 +233,8 @@ previously working version.
 notes on firesmith
 * has notion of developer and user stakeholders, not owner. "developer" seems like å less accurate definition than provider, as i lacks the notion of operations or SRE.
 * the usage oriented quality factor "correctness" has a sub factor "currency" which definition is resembling the C in CAP theorem, Consistency, or degree of consistency. Eventual consistency. This indicates that Partition tolerance should be considered as a quality attribute, at least for a distributed system.
-
+* configurability. Does versioning fit here?
+* dependability, as a top level description above availability is interesting. can it include the notion of anti-fragility and it's requirement, diversity?
 
 ---
 random notes:
