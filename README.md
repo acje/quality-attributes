@@ -237,8 +237,9 @@ notes on firesmith
 * dependability, as a top level description above availability is interesting. can it include the notion of anti-fragility and it's requirement, diversity?
 
 ---
-random notes:
+random notes, these will likely not make sense to you:
 * higher level qualities; system should: evolve/cope with change, be trust wordy (secure), socially compliant (political legal ethical) usability, fits better with the cyber-physical domain than the "pure" cyber-domain. Can split model.
 * clarify stakeholder roles.
 * Look into quality attributes in relation to OODA-loops, and OODA lops in relation to Cynefin framework.
 * vision, strategy, tactics, metrics. where does quality attributes fit in?
+* Proposal; The systems quality attributes can be described as a connected graph of cascading intent (Stephen Bungay - The art of action) or promises (Mark Burgess - promise theory). 
