@@ -232,7 +232,7 @@ previously working version.
 ---
 notes on firesmith
 * has notion of developer and user stakeholders, not owner. "developer" seems like å less accurate definition than provider, as i lacks the notion of operations or SRE.
-* the usage oriented quality factor "correctness" has a sub factor "currency" which definition is resembling the C in CAP theorem, Consistency, or degree of consistency. Eventual consistency. This indicates that Partition tolerance should be considered as a quality attribute, at least for a distributed system.
+* the usage oriented quality factor "correctness" has a sub factor "currency" which definition is resembling the C in CAP theorem, Consistency, or degree of consistency. Eventual consistency. This indicates that Partition tolerance should be considered as a quality attribute, at least for a distributed system. The availability definition in CAP seems much more spesific than the definitions common in other models.
 * configurability. Does versioning fit here?
 * dependability, as a top level description above availability is interesting. can it include the notion of anti-fragility and it's requirement, diversity?
 
