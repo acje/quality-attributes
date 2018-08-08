@@ -1,0 +1,5 @@
+digraph "CIA-triad" {
+ Security->Consistency
+ Security->Integrity
+ Security->Availability
+}
