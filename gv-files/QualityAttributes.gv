@@ -1,0 +1,23 @@
+digraph QualityAttributes {
+ label="Quality Attributes"
+ node [shape=doublecircle]; System
+ node [shape=doubleoctagon]; "System Owner"; "System Provider"; "System User"
+ node [shape=diamond]; "Quality Attributes"; "Functional Requirements"
+ node [shape=box]; Security
+ node [shape=oval]; Confidentiality; Integrity; Availability; "Posession or Control"; Authenticity; Utility;
+
+ "System Owner"->System
+ "System Provider"->System
+ "System User"->System
+ System->"Quality Attributes"
+ System->"Functional Requirements"
+ "Quality Attributes"->Security
+
+ Security->Confidentiality
+ Security->Integrity
+ Security->Availability
+ Security->"Posession or Control"
+ Security->Authenticity
+ Security->Utility
+
+}

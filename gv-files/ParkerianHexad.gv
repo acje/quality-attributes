@@ -1,0 +1,13 @@
+digraph ParkerianHexad {
+ label="Parkerian Hexad"
+ node [shape=box]; Security
+ node [shape=oval]; Confidentiality; Integrity; Availability; "Posession or Control"; Authenticity; Utility;
+
+ Security->Confidentiality
+ Security->Integrity
+ Security->Availability
+ Security->"Posession or Control"
+ Security->Authenticity
+ Security->Utility
+
+}
