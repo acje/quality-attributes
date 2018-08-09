@@ -243,8 +243,12 @@ notes on firesmith
 Availability is one of the most common factors in lists and models of system behavior.
 
 It is considered part of security in the CIA-triad and the Parkerian Hexad. It is considered a "higher level goal" in TOGAF, encapsulating capabilities that will make it possible to maintain availability over time. We find it in the more system state focused space of the CAP-theorem. And all the way down to the RAS and RAS+M meme like lists of system attributes used to sell expensive hardware. The definition of availability range from very strict in the CAP-theorem and Parkerian Hexad to less stict in most of the other definitions and all the way down to the TOGAF definition which is just sircular; "Availability (the degree to which something is available for use)"
+
 http://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html
 
+Availability in CAP is defined as “every request received by a non-failing [database] node in the system must result in a [non-error] response”. It’s not sufficient for some node to be able to handle the request: any non-failing node needs to be able to handle it. Many so-called “highly available” (i.e. low downtime) systems actually do not meet this definition of availability.
+
+Availability in the CAP theorem as explained by Martin Kleppmann. The definition also seems reasonable for stateless komponents. The major difference being that stateless distributed systems needs fewer external dependencies and therefore can have fewer failure modes.
 
 ---
 random notes, these will likely not make sense to you:
