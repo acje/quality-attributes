@@ -237,6 +237,16 @@ notes on firesmith
 * dependability, as a top level description above availability is interesting. can it include the notion of anti-fragility and it's requirement, diversity?
 
 ---
+
+#### The many meanings of availability
+
+Availability is one of the most common factors in lists and models of system behavior.
+
+It is considered part of security in the CIA-triad and the Parkerian Hexad. It is considered a "higher level goal" in TOGAF, encapsulating capabilities that will make it possible to maintain availability over time. We find it in the more system state focused space of the CAP-theorem. And all the way down to the RAS and RAS+M meme like lists of system attributes used to sell expensive hardware. The definition of availability range from very strict in the CAP-theorem and Parkerian Hexad to less stict in most of the other definitions and all the way down to the TOGAF definition which is just sircular; "Availability (the degree to which something is available for use)"
+http://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html
+
+
+---
 random notes, these will likely not make sense to you:
 * higher level qualities; system should: evolve/cope with change, be trust wordy (secure), socially compliant (political legal ethical) usability, fits better with the cyber-physical domain than the "pure" cyber-domain. Can split model.
 * clarify stakeholder roles.
