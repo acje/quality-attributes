@@ -1,20 +1,20 @@
 # Quality attributes
 Notes on quality attributes in information systems
 
-There seems to be no consensus what so ever in the industry about quality attributes. Also known as non-functional requirements (NFRs) or service qualities. Therefore, I'll try to make up my own mind, and perhaps discover a modell. Which, like all other models, will be wrong, but some are usefull.
+There seems to be no consensus what so ever in the industry about quality attributes. Also known as non-functional requirements (NFRs) or service qualities. Therefore, I'll try to make up my own mind, and perhaps discover a model. Which, like all other models, will be wrong, but some are useful.
 
 First two guidelines I have discovered to help slice and dice the model.
 
 Number one, there are three domains to be considered;
 1) The cyber domain (or information domain?) with three basic capabilities; store, move and process information.
-2) The cyber-physical domain with two basic capabilities; input and output of information between the cyber and the physical domain. Sensors and actuators, DAC and ADC. Explicitly not including IO in a storage or communication device, as this is considered the "move" capability of the cyber domain. Side channel attackts lives in this domain.
+2) The cyber-physical domain with two basic capabilities; input and output of information between the cyber and the physical domain. Sensors and actuators, DAC and ADC. Explicitly not including IO in a storage or communication device, as this is considered the "move" capability of the cyber domain. Side channel attacks lives in this domain.
 3) The physical domain. Aka the rest of the universe, mostly out of scope for now.
 
-Number two, there are three basic stakeholder roles to consider. The actual stakeholders may have one or more roles, but the existance of these three roles shold be consistent across all systems, so be sure to cover them all. Quality attributes exists in relation between stakeholders and the system. Therefore it is key to have a consistent model for stakeholders in order to create a consistent model for quality attributes across all types of systems.
+Number two, there are three basic stakeholder roles to consider. The actual stakeholders may have one or more roles, but the existence of these three roles should be consistent across all systems, so be sure to cover them all. Quality attributes exists in relation between stakeholders and the system. Therefore, it is key to have a consistent model for stakeholders in order to create a consistent model for quality attributes across all types of systems.
 
 1) System owners.
 2) System providers. Usually consisting of a vendor, DEV, OPS, SRE or if you work at Amazon or is some poor full-stack engineer named Brent (Phoenix Project joke), then you run it if you build it.
-3) System users. The group that uses the system for the purposes of some subset of its functinal requirements.
+3) System users. The group that uses the system for the purposes of some subset of its functional requirements.
 
 # Enumerating and structuring quality attributes
 
@@ -67,7 +67,7 @@ https://en.wikipedia.org/wiki/Non-functional_requirement
 
 TOGAF has a definition of security that reads more like confidentiality, which is considered a subset of security by most definitions.
 
-I'd like to find some natural way to structure quality attributes such that they are more easily reasoned about and such that I can with greater certainty know if I have covered the whole spectrum. A hierarchical model, like TOGAF is attempting, would be nice because one could more easily identify areas to emphasize if you first know that a higher-level attribute is of importance to the system. However it is not certain that quality attributes naturally organises into som kind of a tree structure hierarchy.
+I'd like to find some natural way to structure quality attributes such that they are more easily reasoned about and such that I can with greater certainty know if I have covered the whole spectrum. A hierarchical model, like TOGAF is attempting, would be nice because one could more easily identify areas to emphasize if you first know that a higher-level attribute is of importance to the system. However, it is not certain that quality attributes naturally organizes into some kind of a tree structure hierarchy.
 https://www.youtube.com/watch?v=ARkLVvtxUZI
 https://www.slideshare.net/Kevlin/a-system-is-not-a-tree
 
@@ -230,11 +230,11 @@ system or one of its components can be successfully withdrawn and replaced by a
 previously working version.
 
 ---
-notes on firesmith
+#### Notes on Firesmith Taxonomy
 * has notion of developer and user stakeholders, not owner. "developer" seems like å less accurate definition than provider, as i lacks the notion of operations or SRE.
-* the usage oriented quality factor "correctness" has a sub factor "currency" which definition is resembling the C in CAP theorem, Consistency, or degree of consistency. Eventual consistency. This indicates that Partition tolerance should be considered as a quality attribute, at least for a distributed system. The availability definition in CAP seems much more spesific than the definitions common in other models.
+* the usage-oriented quality factor "correctness" has a sub factor "currency" which definition is resembling the C in CAP theorem, Consistency, or degree of consistency. Eventual consistency. This indicates that Partition tolerance should be considered as a quality attribute, at least for a distributed system. The availability definition in CAP seems much more specific than the definitions common in other models.
 * configurability. Does versioning fit here?
-* dependability, as a top level description above availability is interesting. can it include the notion of anti-fragility and it's requirement, diversity?
+* dependability, as a top-level description above availability is interesting. can it include the notion of anti-fragility and its requirement, diversity?
 
 ---
 
@@ -242,13 +242,13 @@ notes on firesmith
 
 Availability is one of the most common factors in lists and models of system behavior.
 
-It is considered part of security in the CIA-triad and the Parkerian Hexad. It is considered a "higher level goal" in TOGAF, encapsulating capabilities that will make it possible to maintain availability over time. We find it in the more system state focused space of the CAP-theorem. And all the way down to the RAS and RAS+M meme like lists of system attributes used to sell expensive hardware. The definition of availability range from very strict in the CAP-theorem and Parkerian Hexad to less stict in most of the other definitions and all the way down to the TOGAF definition which is just sircular; "Availability (the degree to which something is available for use)"
+It is considered part of security in the CIA-triad and the Parkerian Hexad. It is considered a "higher level goal" in TOGAF, encapsulating capabilities that will make it possible to maintain availability over time. We find it in the more system state focused space of the CAP-theorem. And all the way down to the RAS and RAS+M meme like lists of system attributes used to sell expensive hardware. The definition of availability range from very strict in the CAP-theorem and Parkerian Hexad to less strict in most of the other definitions and all the way down to the TOGAF definition which is just circular; "Availability (the degree to which something is available for use)"
 
 http://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html
 
 Availability in CAP is defined as “every request received by a non-failing [database] node in the system must result in a [non-error] response”. It’s not sufficient for some node to be able to handle the request: any non-failing node needs to be able to handle it. Many so-called “highly available” (i.e. low downtime) systems actually do not meet this definition of availability.
 
-Availability in the CAP theorem as explained by Martin Kleppmann. The definition also seems reasonable for stateless komponents. The major difference being that stateless distributed systems needs fewer external dependencies and therefore can have fewer failure modes.
+Availability in the CAP theorem as explained by Martin Kleppmann. The definition also seems reasonable for stateless components. The major difference being that stateless distributed systems needs fewer external dependencies and therefore can have fewer failure modes.
 
 ---
 random notes, these will likely not make sense to you:
@@ -256,4 +256,4 @@ random notes, these will likely not make sense to you:
 * clarify stakeholder roles.
 * Look into quality attributes in relation to OODA-loops, and OODA lops in relation to Cynefin framework.
 * vision, strategy, tactics, metrics. where does quality attributes fit in?
-* Proposal; The systems quality attributes can be described as a connected graph of cascading intent (Stephen Bungay - The art of action) or promises (Mark Burgess - promise theory). 
+* Proposal; The systems quality attributes can be described as a connected graph of cascading intent (Stephen Bungay - The art of action) or promises (Mark Burgess - promise theory).
