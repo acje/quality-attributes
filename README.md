@@ -1,6 +1,9 @@
 # Quality attributes
 Notes on quality attributes in information systems
 
+https://www.xkcd.com/2030/
+https://www.xkcd.com/2021/
+
 There seems to be no consensus what so ever in the industry about quality attributes. Also known as non-functional requirements (NFRs) or service qualities. Therefore, I'll try to make up my own mind, and perhaps discover a model. Which, like all other models, will be wrong, but some are useful.
 
 First two guidelines I have discovered to help slice and dice the model.
