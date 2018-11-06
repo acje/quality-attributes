@@ -259,7 +259,9 @@ One problem with this definition of availability is that it does not have a noti
 
 Or perhaps the inadequate non-description or non-functional requirements. It seems like a better model is to divide requirements into three, perhaps four categories; Functional, (and then the "NFRs") Social, Security and perhaps lastly Operability or maintainability, covering the abilities to keep the system functioning through time and change.
 
-Social requirements can again be divided into Status, legal and ethical requirements. Typically held by the stakeholders with the owner role. Although the programmers oath by "uncle Bob" Martin claims that the stakeholders with the provider role (typically dev and ops) should hold these requirements as well.
+Social requirements can again be divided into Status, legal and ethical requirements. Typically held by the stakeholders with the owner role. Although the programmer's oath by "uncle Bob" Martin claims that the stakeholders with the provider role (typically dev and ops) should hold these requirements as well.
+
+https://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html
 
 ---
 random notes, these will likely not make sense to you:
