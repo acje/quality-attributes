@@ -255,6 +255,12 @@ Availability in the CAP theorem as explained by Martin Kleppmann. The definition
 
 One problem with this definition of availability is that it does not have a notion of time. The appropriate response time will greatly vary between systems. Ranging from very long if you are interacting with outer space entities like the Mars rover, or very low if you are doing something on-chip, like reading from a CPU registry. Sometimes we se expressions like "in a timely manner". Being guaranteed a response but not when to get it is often not good enough to meet typical expectations of availability. Gil Tene of Azul systems has some nice interviewing techniques to lure out the actual expectations to a system with regard to response times. First asking about the "typical response time" and then the worst case response time. usually getting a vague response for the max he answers back that the customer accepts [some extremely long response time with regards to the system]. Whereas the customer typically replies with a very low max response time that could make the system excessively expensive, at least in modern systems with very high technology stacks full of costly abstractions and noisy resource sharing.
 
+#### The false dichotomy of functional and non-functional requirements.
+
+Or perhaps the inadequate non-description or non-functional requirements. It seems like a better model is to divide requirements into three, perhaps four categories; Functional, (and then the "NFRs") Social, Security and perhaps lastly Operability or maintainability, covering the abilities to keep the system functioning through time and change.
+
+Social requirements can again be divided into Status, legal and ethical requirements. Typically held by the stakeholders with the owner role. Although the programmers oath by "uncle Bob" Martin claims that the stakeholders with the provider role (typically dev and ops) should hold these requirements as well.
+
 ---
 random notes, these will likely not make sense to you:
 * higher level qualities; system should: evolve/cope with change, be trust wordy (secure), socially compliant (political legal ethical) usability, fits better with the cyber-physical domain than the "pure" cyber-domain. Can split model.
