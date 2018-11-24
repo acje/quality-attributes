@@ -9,7 +9,7 @@ There seems to be no consensus what so ever in the industry about quality attrib
 First two guidelines I have discovered to help slice and dice the model.
 
 Number one, there are three domains to be considered;
-1) The cyber domain (or information domain?) with three basic capabilities; store, move and process information.
+1) The cyber domain (or information domain?) with the three elements of computation; processing, storage and communcation. https://www.youtube.com/watch?v=7erJ1DV_Tlo
 2) The cyber-physical domain with two basic capabilities; input and output of information between the cyber and the physical domain. Sensors and actuators, DAC and ADC. Explicitly not including IO in a storage or communication device, as this is considered the "move" capability of the cyber domain. Side channel attacks lives in this domain.
 3) The physical domain. Aka the rest of the universe, mostly out of scope for now.
 
