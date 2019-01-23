@@ -271,3 +271,4 @@ random notes, these will likely not make sense to you:
 * vision, strategy, tactics, metrics. where does quality attributes fit in?
 * Proposal; The systems quality attributes can be described as a connected graph of cascading intent (Stephen Bungay - The art of action) or promises (Mark Burgess - promise theory).
 * this might become a wardley map(?) functional requirements (user needs) being the anchor.
+TODO: https://www.fi.upm.es/catedra-ibmrational/sites/www.fi.upm.es.catedra-ibmrational/files/calero2.pdf
