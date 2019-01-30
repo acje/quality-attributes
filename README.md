@@ -273,8 +273,9 @@ random notes, these will likely not make sense to you:
 * this might become a wardley map(?) functional requirements (user needs) being the anchor.
 TODO: https://www.fi.upm.es/catedra-ibmrational/sites/www.fi.upm.es.catedra-ibmrational/files/calero2.pdf
 
-quality attributes expressed as cost
-Reliable - Cost of failure
-Maintainable - Cost of change 
-Scalable - Cost of growth (subset of change? change in workload)
-Security - Cost of harm? (subset of reliable?)
+Quality attributes expressed as cost
+
+* Reliable - Cost of failure
+* Maintainable - Cost of change 
+* Scalable - Cost of growth (subset of change? change in workload)
+* Security - Cost of harm? (subset of reliable?)
