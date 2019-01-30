@@ -279,3 +279,6 @@ Quality attributes expressed as cost
 * Maintainable - Cost of change 
 * Scalable - Cost of growth (subset of change? change in workload)
 * Security - Cost of harm? (subset of reliable?)
+
+ISO 25010:2011
+https://webstore.iec.ch/preview/info_isoiec25010%7Bed1.0%7Den.pdf
