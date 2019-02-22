@@ -285,3 +285,5 @@ https://webstore.iec.ch/preview/info_isoiec25010%7Bed1.0%7Den.pdf
 http://adcorsi.com/analisidisegnowp/wp-content/uploads/2013/08/iso25010-en.pdf
 serverless
 https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf
+Autonomy
+https://www.researchgate.net/publication/307619668_Determinants_of_an_Appropriate_Degree_of_Autonomy_in_a_Cyber-physical_Production_System/download
